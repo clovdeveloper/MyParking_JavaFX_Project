@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="540.0" prefWidth="889.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clovdev.myparking.Controller.LoginController">
+   <children>
+      <AnchorPane layoutX="1.0" prefHeight="500.0" prefWidth="205.0">
+         <children>
+            <Circle layoutX="90.0" layoutY="241.0" radius="79.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient cycleMethod="REFLECT" endX="0.6515151226159298" endY="1.0" startX="0.07575756221106555">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color blue="0.821052610874176" green="0.12163742631673813" red="0.26152047514915466" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color blue="0.23298245668411255" green="0.23298245668411255" red="0.2526315748691559" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill></Circle>
+            <Circle layoutX="36.0" layoutY="36.0" radius="36.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient cycleMethod="REFLECT" endX="0.6515151226159298" endY="1.0" startX="0.07575756221106555">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color blue="0.821052610874176" green="0.12163742631673813" red="0.26152047514915466" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color blue="0.23298245668411255" green="0.23298245668411255" red="0.2526315748691559" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle layoutX="106.0" layoutY="98.0" radius="36.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient cycleMethod="REFLECT" endX="0.6515151226159298" endY="1.0" startX="0.07575756221106555">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color blue="0.821052610874176" green="0.12163742631673813" red="0.26152047514915466" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color blue="0.23298245668411255" green="0.23298245668411255" red="0.2526315748691559" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle layoutX="36.0" layoutY="464.0" radius="36.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient cycleMethod="REFLECT" endX="0.6515151226159298" endY="1.0" startX="0.07575756221106555">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color blue="0.821052610874176" green="0.12163742631673813" red="0.26152047514915466" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color blue="0.23298245668411255" green="0.23298245668411255" red="0.2526315748691559" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle layoutX="99.0" layoutY="392.0" radius="36.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient cycleMethod="REFLECT" endX="0.6515151226159298" endY="1.0" startX="0.07575756221106555">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color blue="0.821052610874176" green="0.12163742631673813" red="0.26152047514915466" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color blue="0.23298245668411255" green="0.23298245668411255" red="0.2526315748691559" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle layoutX="192.0" layoutY="235.0" radius="19.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient cycleMethod="REFLECT" endX="0.6515151226159298" endY="1.0" startX="0.07575756221106555">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color blue="0.821052610874176" green="0.12163742631673813" red="0.26152047514915466" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color blue="0.23298245668411255" green="0.23298245668411255" red="0.2526315748691559" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+         </children></AnchorPane>
+      <AnchorPane layoutX="207.0" layoutY="-11.0" prefHeight="500.0" prefWidth="620.0">
+         <children>
+            <TextField fx:id="username" layoutX="88.0" layoutY="189.0" prefHeight="26.0" prefWidth="331.0" promptText="Username" />
+            <TextField fx:id="password" layoutX="88.0" layoutY="259.0" prefHeight="26.0" prefWidth="331.0" promptText="Password" />
+            <Button fx:id="loginBtn" layoutX="48.0" layoutY="339.0" mnemonicParsing="false" onAction="#seConnecter" prefHeight="26.0" prefWidth="206.0" text="LOGIN" />
+            <Hyperlink layoutX="455.0" layoutY="452.0" text="Mot de passe oublié ?" />
+            <Label layoutX="88.0" layoutY="34.0" prefHeight="111.0" prefWidth="279.0" text="   LOGIN" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="69.0" />
+               </font>
+               <textFill>
+                  <LinearGradient cycleMethod="REFLECT" endX="0.6515151226159298" endY="1.0" startX="0.07575756221106555">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color blue="0.821052610874176" green="0.12163742631673813" red="0.26152047514915466" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color blue="0.23298245668411255" green="0.23298245668411255" red="0.2526315748691559" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Button fx:id="cancelBtn" layoutX="316.0" layoutY="339.0" mnemonicParsing="false" onAction="#exit" prefHeight="26.0" prefWidth="206.0" text="CANCEL" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
